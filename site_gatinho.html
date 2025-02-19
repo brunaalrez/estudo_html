@@ -1,6 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt"> <!--lang define na tradução do site-->
+    <head> <!--head é onde fica os metadados e informações que não vão ao publico-->
+        <meta charset="utf-8"> <!--Informações sobre o documento-->
+        <title>Aplicativo de Fotos de Gato</title> <!--Informação que é exibida na aba do navegador-->
+    </head>
     <body>
+        <main> <!--conteudo principal da página (ponto de vista semantico)-->
+            <h1>Aplicativo de Fotos de Gato</h1>
+            <section> <!--Para meios de organização semantica da pagina-->
+                <h2>Foto de gatos</h2>
+                <p>Todo mundo ama <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">gatos fofos</a> online!</p>
+                <p>Veja mais <a target="_blank" href="https://freecatphotoapp.com">fotos de gatos</a> na sua geleria</p> <!--target _blank leva para uma nova guia-->
+                <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Um gato fofo laranja deitado de costas"></a> <!--alt é um texto alternativo-->
+            </section>
+            <section>
+                <h2>Lista dos gatos</h2>
+                <h3>Coisas que os gatos amam</h3>
+                <ul>
+                    <li>Cat nip</li>
+                    <li>Canetas com Lazer</li>
+                    <li>Lasanha</li>
+                </ul>
+                <figure> <!--Identifica contéudo como uma unidade independente-->
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Um pedaço de lasanha no prato">
+                    <figcaption>Gatos <em>amam</em> lasanha</figcaption> <!--Adiciona legenda-->
+                </figure>
+            </section>
+        </main>
         
     </body>
 </html>
