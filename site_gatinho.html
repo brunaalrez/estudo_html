@@ -15,7 +15,7 @@
             </section>
             <section>
                 <h2>Lista dos gatos</h2>
-                <h3>Coisas que os gatos amam</h3>
+                <h3>Coisas que os gatos amam:</h3>
                 <ul>
                     <li>Cat nip</li>
                     <li>Canetas com Lazer</li>
@@ -25,8 +25,38 @@
                     <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Um pedaço de lasanha no prato">
                     <figcaption>Gatos <em>amam</em> lasanha</figcaption> <!--Adiciona legenda-->
                 </figure>
+                <h3>Coisas que os gatos odeiam:</h3>
+                <ol>
+                    <li>flea treatment</li>
+                    <li>Trovões</li>
+                    <li>Outros gatos</li>
+                </ol>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Cinco gatos olhando ao redor do gramado"/>
+                    <figcaption>Gatos <strong>odeiam</strong> outros gatos</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2>Formulário dos gatos</h2>
+                <form action="https://freecatphotoapp.com/submit-cat-photo"> <!--URL para o qual o formulário será enviado-->
+                    <fieldset> <!--agrupa elementos do formulário-->
+                        <legend>O seu gato é um gato interno ou externo?</legend> <!--legenda para os formulários-->
+                        <label><input id="interno" type="radio" name="interno-externo" value="interno" checked>Interno</label> <!--id= atribuir um identificador único a um elemento; type= diversos elementos especificos; name= dar nome ao campo; value= valor inicial para um campo; checked= selecionador por padrão-->
+                        <label><input id="externo" type="radio" name="interno-externo" value="externo">Externo</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Qual é a personalidade do seu gato?</legend>
+                        <label><input id="amoroso" type="checkbox" name="personalidade" value="amoroso" for="amoroso" checked>Amoroso</label> <!--for=associa um elemento de formulário a um rótulo-->
+                        <label><input id="preguicoso" type="checkbox" name="personalidade" value="preguicoso" for="preguicoso">Preguiçoso</label>
+                        <label><input id="energetico" type="checkbox" name="personalidade" value="energetico" for="energetico">Energético</label>
+                    </fieldset>
+                    <input type="text" name="fotodegato" placeholder="URL foto de gato" required> <!--placeholder= fornece um texto de dica ou sogestão dentro co campo; required= indica que o campo deve ser preenchido antes do formulário seja enviado-->
+                    <button type="submit">Enviar</button>
+                </form>
             </section>
         </main>
-        
+        <footer> <!--rodapé de uma seção ou de um documento-->
+            <p>No Copyright <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+        </footer>
     </body>
 </html>
