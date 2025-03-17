@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(255, 255, 255) /*conbinação de três cores primárias, sendo 255 o mais puro*/;
+    padding: 10px 0; /*preenchimento superior e inferior*/
+}
+
+.marker{
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.red{
+    background: linear-gradient(rgb(122,74,14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}

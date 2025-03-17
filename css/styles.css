@@ -83,14 +83,17 @@ a{
     color: black;
 }
 
+/*Estilo dos links que já foram visiados*/
 a:visited{
     color: black;
 }
 
+/*Estilo de link quando o cursor passa sobre*/
 a:hover{
     color: brown;
 }
 
+/*Estilo de link quando está sendo clicado*/
 a:active{
     color: brown;
 }
